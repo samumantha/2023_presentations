@@ -8,7 +8,7 @@ The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.528
 
 ## Steps towards reproducible research
 
-![](img/reproducible_research.jpg)
+![](img/reproducible-research.jpg)
 
 ### It all starts with a good directory structure...
 
@@ -21,7 +21,7 @@ Conda, Anaconda, pip, virtualenv, Pipenv, pyenv, Poetry, requirements.txt, envir
 
 ### Recording environments
 
-![](img/Docker_meme.webp)
+![](img/docker_meme.webp)
 https://www.reddit.com/r/ProgrammerHumor/comments/cw58z7/it_works_on_my_machine/
 
 ### Sharing code and data
