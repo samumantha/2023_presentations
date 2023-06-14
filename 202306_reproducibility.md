@@ -12,7 +12,7 @@ The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.528
 
 ### It all starts with a good directory structure...
 
-... And version control
+... And version control, releases tags
 
 ### Tracking dependencies
 
@@ -27,7 +27,8 @@ https://www.reddit.com/r/ProgrammerHumor/comments/cw58z7/it_works_on_my_machine/
 ### HPC module reprodcuibility
 
 * Container recipes or images
-* version numbers software - module
+* version numbers software - module : use specific version number
+* pulling images: use version tags
 * environment/requirements files with version numbers
 
 ### Sharing code and data
