@@ -24,6 +24,12 @@ Conda, Anaconda, pip, virtualenv, Pipenv, pyenv, Poetry, requirements.txt, envir
 ![](img/docker_meme.webp)
 https://www.reddit.com/r/ProgrammerHumor/comments/cw58z7/it_works_on_my_machine/
 
+### HPC module reprodcuibility
+
+* Container recipes or images
+* version numbers software - module
+* environment/requirements files with version numbers
+
 ### Sharing code and data
 
 ![](img/8-fair-principles.jpg)
