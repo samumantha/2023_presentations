@@ -1,0 +1,1 @@
+Image collection for presentations
