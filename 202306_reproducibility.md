@@ -7,9 +7,7 @@
 
 Samantha Wittke, CSC - IT Center for Science
 
-![CC BY 4.0][[cc-by-image](https://i.creativecommons.org/l/by/4.0/88x31.png)]
-
-
+![](https://i.creativecommons.org/l/by/4.0/88x31.png)
 
 June 2023
 
