@@ -139,15 +139,13 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 ## Data repositories
 
-[Registry of Research data repositories](https://www.re3data.org):
+[Registry of Research data repositories](https://www.re3data.org)
 
-international 
+Some general international repos:
 
 * [Zenodo](https://zenodo.org/)
 * [Figshare](https://figshare.com/) 
 * [EUDAT](https://eudat.eu/) 
-* 
-or national repositories.
 
 Even though FAIR data is often referred to as “open data”, it means considering and making good decisions, even if non-open.
 
