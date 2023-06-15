@@ -28,9 +28,9 @@ The Turing Way project illustration (also front page). Used under a CC-BY 4.0 li
 
 ### It all starts with a good directory structure...
 
-<br>
 
 .center[
+
 ```
 project_name/
 ├── README.md             # overview of the project
@@ -48,6 +48,7 @@ project_name/
     ├── index.rst
     └── ...
 ```
+
 ]
 
 ... and version control, tags, releases ...
@@ -88,17 +89,23 @@ If things go wrong, you can delete and re-create - much better use of time than 
 
 <br>
 <br>
+<br>
+<br>
 
 
 .center[
- "It works on my machine" ¯\_(ツ)_/¯
+ 
+ "It works on my machine" 
+ 
+ ¯\_(ツ)_/¯
+ 
  ]
  
 <br>
 
 ---
 
-### Containers
+## Containers
 
 Simplified: Shipping an entire operating system with software installed (and data) in one file.
 
@@ -110,7 +117,7 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 ---
 
-### Sharing code and data
+## Sharing code and data
 
 
 .left-column50[
@@ -119,16 +126,19 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 .right-column50[
 
-* Findable - Will anyone else know that your data exists? -> get digital object identifier (DOI)
-* Accessible - Can anyone else get your data? -> use a repository
-* Interoperable - Is your data in a format that can be used by others? -> check recommendations for your field
-* Reusable - Is there a license allowing others to re-use?
-
+- **Findable** 
+    - Will anyone else know that your data exists? -> get digital object identifier (DOI)
+-  **Accessible** 
+    - Can anyone else get your data? -> use a repository
+- **Interoperable**
+    - Is your data in a format that can be used by others? -> check recommendations for your field
+- **Reusable** 
+    - Is there a license allowing others to re-use?
 ]
 
 --- 
 
-### Data repositories
+## Data repositories
 
 [Registry of Research data repositories](https://www.re3data.org):
 
@@ -147,34 +157,44 @@ FAIR principles also apply for research software!
 ---
 
 
-### Recording computational steps
+## Recording computational steps
 
 In general: scripted solutions are more reproducible than separate runs, however depending on scripting skills you might run into limitations as soon as computational steps get more or more timeconsuming.
 
+
+<br>
+<br>
+
 Workflow tools to the rescue:
 
-    * No extensive scripting skills needed
-    * Record computational steps with additional arguments, requirements etc...
-    * One step in the workflow changed? -> rerun only necessary steps
+* No extensive scripting skills needed
+* Record computational steps with additional arguments, requirements etc...
+* One step in the workflow changed? -> rerun only necessary steps
     
 ---
     
-Some workflow tools:
+## Workflow tools
 
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/)
 * [Make](https://www.gnu.org/software/make/)
 * [Common Workflow Language](https://www.commonwl.org/)
 * [Long list of other general and more specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
 
-Note also the tools integration with Github, containers, and usability/efficiency on HPC
-Check out also CSC guide on [High Throughput Computing](https://docs.csc.fi/computing/running/throughput/).
+<br>
+<br>
+
+Integration with Github, containers, and usability/efficiency on HPC?
+
+
 
 ---
 
-### References and Resources
+## References and Resources
 
 [CodeRefinery reproducible research lesson](https://coderefinery.github.io/reproducible-research/)
 
 [The Turing way - Guide for reproducible research](https://coderefinery.github.io/reproducible-research/)
 -> All scriberia illustrations: The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+
+[CSC High Throughput Computing](https://docs.csc.fi/computing/running/throughput/)
 
