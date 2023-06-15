@@ -29,7 +29,6 @@ The Turing Way project illustration (also front page). Used under a CC-BY 4.0 li
 ### It all starts with a good directory structure...
 
 
-.center[
 
 ```
 project_name/
@@ -49,7 +48,8 @@ project_name/
     └── ...
 ```
 
-]
+<br>
+<br>
 
 ... and version control, tags, releases ...
 
