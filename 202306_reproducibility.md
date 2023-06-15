@@ -38,17 +38,18 @@ Avoiding "dependency hell" , i.e. different codes requiring differnt package ver
 
 Available tools (e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) may help with:
 
-* Defining a specific set of dependencies, possibly with well defined versions
-* Installing those dependencies mostly automatically
-* Recording the versions for all dependencies
-* Isolate environments -> you know and can share your dependencies
+* Defining a **specific set of dependencies**, possibly with well defined versions
+* Installing those dependencies mostly **automatically**
+* **Recording the versions** for all dependencies
+* **Isolate environments** -> you know and can share your dependencies
   * On your computer for projects so they can use different software
   * Isolate environments on computers with many users (and allow self-installations)
   * Using different Python/R versions per project
-* Provide tools and services to share packages
+* Provide tools and services to **share packages**
 
-If things go wrong, you can delete and re-create - much better than debugging. 
-The more often you re-create your environment, the more reproducible it is.
+If things go wrong, you can delete and re-create - much better use of time than debugging. 
+
+> The more often you re-create your environment, the more reproducible it is.
 
 ### Recording environments
 
@@ -86,21 +87,25 @@ FAIR principles are usually discussed in the context of data, but they apply als
 In general: scripted solutions are more reproducible than single runs, however depending on scripting skills you might run into limitations as soon as computational steps get more or more timeconsuming.
 
 Workflow tools to the rescue:
+
     * No extensive scripting skills needed
     * Record computational steps with additional arguments, requirements etc...
     * One step in the workflow changed? -> rerun only necessary steps
     
 Some workflow tools:
+
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/)
 * [Make](https://www.gnu.org/software/make/)
 * [Common Workflow Language](https://www.commonwl.org/)
 * [Long list of other general and more specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
 
-Not all tools are easily HPC compatible. Check out also CSC guide on [High Throughput Computing](https://docs.csc.fi/computing/running/throughput/).
-    
+Note also the tools integration with Github, containers, and usability/efficiency on HPC
+Check out also CSC guide on [High Throughput Computing](https://docs.csc.fi/computing/running/throughput/).
+
 
 ### References and Resources
 
 [CodeRefinery reproducible research lesson](https://coderefinery.github.io/reproducible-research/)
+
 [The Turing way - Guide for reproducible research](https://coderefinery.github.io/reproducible-research/)
 
