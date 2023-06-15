@@ -34,7 +34,7 @@ project_name/
 
 ### Tracking dependencies
 
-Avoiding "dependency hell" , i.e. different codes requiring differnt package versions, possibly incompatible, but also for prototyping, testing etc.
+Avoiding "dependency hell" , i.e. different codes requiring differnt package versions, possibly incompatible.
 
 Available tools (e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) may help with:
 
@@ -50,11 +50,9 @@ Available tools (e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) 
 If things go wrong, you can delete and re-create - much better than debugging. 
 The more often you re-create your environment, the more reproducible it is.
 
-
 ### Recording environments
 
-![](img/docker_meme.webp)
-https://www.reddit.com/r/ProgrammerHumor/comments/cw58z7/it_works_on_my_machine/
+ > "It works on my machine" ¯\_(ツ)_/¯
 
 #### Containers
 
@@ -64,7 +62,7 @@ A **container image** is like a piece of paper with all the operating system on 
 
 **Definition files** (e.g. Dockerfile or Singularity definition file) are text files that contain a series of instructions to build container images
 
-For container reproducibility: use version tags when pulling images from repositories also in definition files.
+For container reproducibility: Use version tags when pulling images from repositories also in definition files.
 
 ### Sharing code and data
 
@@ -85,7 +83,21 @@ FAIR principles are usually discussed in the context of data, but they apply als
 
 ### Recording computational steps
 
-Workflow tools
+In general: scripted solutions are more reproducible than single runs, however depending on scripting skills you might run into limitations as soon as computational steps get more or more timeconsuming.
+
+Workflow tools to the rescue:
+    * No extensive scripting skills needed
+    * Record computational steps with additional arguments, requirements etc...
+    * One step in the workflow changed? -> rerun only necessary steps
+    
+Some workflow tools:
+* [Snakemake](https://snakemake.readthedocs.io/en/stable/)
+* [Make](https://www.gnu.org/software/make/)
+* [Common Workflow Language](https://www.commonwl.org/)
+* [Long list of other general and more specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
+
+Not all tools are easily HPC compatible. Check out also CSC guide on [High Throughput Computing](https://docs.csc.fi/computing/running/throughput/).
+    
 
 ### References and Resources
 
