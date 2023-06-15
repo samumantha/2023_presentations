@@ -5,9 +5,7 @@
 
 # ~~Computing environment~~ Reproducibility 
 
-<img src="img/csc.png" style="height: 75px;"/>
-
-Samantha Wittke
+<img src="img/csc.png" style="height: 75px;"/> Samantha Wittke
 
 June 2023
 ]
