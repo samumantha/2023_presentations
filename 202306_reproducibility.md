@@ -5,8 +5,6 @@
 
 # ~~Computing environment~~ Reproducibility 
 
-<br>
-
 <img src="img/csc.png" style="height: 75px;"/>
 
 Samantha Wittke
@@ -23,13 +21,16 @@ The Turing Way project illustration (also front page). Used under a CC-BY 4.0 li
 
 ---
 
-<img src="img/reproducible-research.jpg" style="height: 500px;"/>
+<img src="img/reproducible-research.jpg" style="height: 600px;"/>
 
 
 ---
 
 ### It all starts with a good directory structure...
 
+<br>
+
+.center[
 ```
 project_name/
 ├── README.md             # overview of the project
@@ -47,19 +48,21 @@ project_name/
     ├── index.rst
     └── ...
 ```
+]
 
-... and version control, releases, tags ...
+... and version control, tags, releases ...
 
 ---
 
 ### Tracking dependencies
 
-<img src="img/python_environment.png" style="height: 400px;"/>
+<img src="img/python_environment.png" style="height: 500px;"/>
 [https://xkcd.com/](https://xkcd.com/1987/)
 
 ---
-## Tools
-(e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) may help with:
+### Tools
+
+Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ... may help with:
 
 * Defining a **specific set of dependencies**, possibly with well defined versions
 * Installing those dependencies mostly **automatically**
@@ -84,6 +87,8 @@ If things go wrong, you can delete and re-create - much better use of time than 
 
 
 <br>
+<br>
+
 
 .center[
  "It works on my machine" ¯\_(ツ)_/¯
@@ -93,11 +98,11 @@ If things go wrong, you can delete and re-create - much better use of time than 
 
 ---
 
-#### Containers
+### Containers
 
 Simplified: Shipping an entire operating system with software installed (and data) in one file.
 
-A **container image** is like a piece of paper with all the operating system on it. When you run it, a transparent sheet is placed on top to form a container. The container runs and writes only on that transparent sheet (and what other mounts have been layered on top). When you are done, transparency is thrown away. It can be repeated as often as you want, and base is always the same.
+A **container image**  - a piece of paper with all the operating system on it. When you run it, a transparent sheet is placed on top to form a container. The container runs and writes only on that transparent sheet. When you are done, only original paper left. 
 
 **Definition files** (e.g. Dockerfile or Singularity definition file) are text files that contain a series of instructions to build container images
 
@@ -107,20 +112,37 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 ### Sharing code and data
 
-<img src="img/8-fair-principles.jpg" style="height: 600px;"/>
 
+.left-column50[
+<img src="img/8-fair-principles.jpg" style="height: 200px;"/>
+]
 
+.right-column50[
 
 * Findable - Will anyone else know that your data exists? -> get digital object identifier (DOI)
 * Accessible - Can anyone else get your data? -> use a repository
 * Interoperable - Is your data in a format that can be used by others? -> check recommendations for your field
 * Reusable - Is there a license allowing others to re-use?
 
-[Registry of Research data repositories](https://www.re3data.org), e.g. international ([Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), [EUDAT](https://eudat.eu/),...) or national repositories.
+]
 
-Even though this is usually referred to as “open data”, it means considering and making good decisions, even if non-open.
+--- 
 
-FAIR principles are usually discussed in the context of data, but they apply also for research software.
+### Data repositories
+
+[Registry of Research data repositories](https://www.re3data.org):
+
+international 
+
+* [Zenodo](https://zenodo.org/)
+* [Figshare](https://figshare.com/) 
+* [EUDAT](https://eudat.eu/) 
+* 
+or national repositories.
+
+Even though FAIR data is often referred to as “open data”, it means considering and making good decisions, even if non-open.
+
+FAIR principles also apply for research software!
 
 ---
 
