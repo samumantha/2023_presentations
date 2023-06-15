@@ -165,7 +165,7 @@ FAIR principles also apply for research software!
 
 <br>
 
-Workflow tools (e.g. [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Make](https://www.gnu.org/software/make/), [Common Workflow Language](https://www.commonwl.org/)) :
+Workflow tools, e.g. [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Make](https://www.gnu.org/software/make/), [Common Workflow Language](https://www.commonwl.org/):
 
 * No extensive scripting skills needed
 * Record computational steps with additional arguments, requirements etc...
