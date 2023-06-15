@@ -16,16 +16,12 @@ June 2023
 ---
 
 
-## Terminology
-
 <img src="img/reproducible-definition-grid.svg" style="height: 600px;"/>
 
 
 The Turing Way project illustration (also front page). Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 
 ---
-
-## Steps towards reproducible research
 
 <img src="img/reproducible-research.jpg" style="height: 500px;"/>
 
