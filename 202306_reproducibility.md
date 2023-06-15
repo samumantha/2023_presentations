@@ -24,7 +24,7 @@ The Turing Way project illustration (also front page). Used under a CC-BY 4.0 li
 
 ---
 
-### It all starts with a good directory structure...
+## It all starts with a good directory structure...
 
 
 
@@ -119,6 +119,9 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 .left-column50[
 
+<br>
+<br>
+
 <img src="img/8-fair-principles.jpg" style="height: 250px;"/>
 
 ]
@@ -155,13 +158,13 @@ FAIR principles also apply for research software!
 
 ## Recording computational steps
 
-In general: scripted solutions are more reproducible than separate runs, however depending on scripting skills you might run into limitations as soon as computational steps get more or more timeconsuming.
+GUI < CLI runs < scripts < workflows ? 
 
 
 <br>
 <br>
 
-Workflow tools to the rescue:
+Workflow tools:
 
 * No extensive scripting skills needed
 * Record computational steps with additional arguments, requirements etc...
@@ -174,12 +177,12 @@ Workflow tools to the rescue:
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/)
 * [Make](https://www.gnu.org/software/make/)
 * [Common Workflow Language](https://www.commonwl.org/)
-* [Long list of other general and more specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
+* [Long list of other general and specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
 
 <br>
 <br>
 
-Integration with Github, containers, and usability/efficiency on HPC?
+Check also integration with Git*, containers, and usability/efficiency on HPC!
 
 
 
@@ -187,10 +190,14 @@ Integration with Github, containers, and usability/efficiency on HPC?
 
 ## References and Resources
 
+<br>
+
 [CodeRefinery reproducible research lesson](https://coderefinery.github.io/reproducible-research/)
 
 [The Turing way - Guide for reproducible research](https://coderefinery.github.io/reproducible-research/)
 -> All scriberia illustrations: The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 
 [CSC High Throughput Computing](https://docs.csc.fi/computing/running/throughput/)
+
+Slides brought to you by [Cicero](https://cicero.xyz/)
 
