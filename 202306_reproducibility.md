@@ -54,7 +54,7 @@ project_name/
 
 ### Tracking dependencies
 
-<img src="img/python_environment.png" style="height: 600px;"/>
+<img src="img/python_environment.png" style="height: 400px;"/>
 [https://xkcd.com/](https://xkcd.com/1987/)
 
 ---
