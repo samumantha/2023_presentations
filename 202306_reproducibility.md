@@ -1,12 +1,15 @@
 
 .center[
 
+<img src="img/reproducibility" style="height: 300px;"/>
 
 # ~~Computing environment~~ Reproducibility 
 
 <br>
 
 Samantha Wittke, CSC - IT center for Science
+
+June 2023
 ]
 ---
 
