@@ -1,4 +1,4 @@
-# Computing environment reproducibility 
+# ~~Computing environment~~ Reproducibility 
 
 ## Terminology
 
