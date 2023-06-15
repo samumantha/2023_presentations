@@ -61,10 +61,10 @@ project_name/
 ---
 ## Tools
 
-Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ... may help with:
+Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ... :
 
-* **specific** set of dependencies
-* **automatic** installation
+* **Specify** set of dependencies
+* **Automatic** installation
 * **Version record** for all dependencies
 * **Isolate environments** -> you know and can share your dependencies
 * Provide tools and services to **share packages**
@@ -110,7 +110,7 @@ A **container image**  - a piece of paper with all the operating system on it. W
 
 **Definition files** (e.g. Dockerfile or Singularity definition file) are text files that contain a series of instructions to build container images
 
-For container reproducibility: Use version tags when pulling images from repositories also in definition files.
+> Container reproducibility: Version tags for pulling images from repositories; also in definition files.
 
 ---
 
@@ -119,7 +119,6 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 .left-column50[
 
-<br>
 <br>
 
 <img src="img/8-fair-principles.jpg" style="height: 250px;"/>
@@ -142,7 +141,7 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 ## Data repositories
 
-[Registry of Research data repositories](https://www.re3data.org)
+[Re3data: Registry of Research data repositories](https://www.re3data.org)
 
 Some general international repos:
 
@@ -158,33 +157,23 @@ FAIR principles also apply for research software!
 
 ## Recording computational steps
 
-GUI < CLI runs < scripts < workflows ? 
+<br>
+<br>
 
+> GUI < CLI runs < scripts < workflows ? 
 
 <br>
 <br>
 
-Workflow tools:
+Workflow tools (e.g. [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Make](https://www.gnu.org/software/make/), [Common Workflow Language](https://www.commonwl.org/)) :
 
 * No extensive scripting skills needed
 * Record computational steps with additional arguments, requirements etc...
 * One step in the workflow changed? -> rerun only necessary steps
-    
----
-    
-## Workflow tools
-
-* [Snakemake](https://snakemake.readthedocs.io/en/stable/)
-* [Make](https://www.gnu.org/software/make/)
-* [Common Workflow Language](https://www.commonwl.org/)
-* [Long list of other general and specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
-
+ 
 <br>
-<br>
-
-Check also integration with Git*, containers, and usability/efficiency on HPC!
-
-
+ 
+> Check also integration with Git*, containers, and usability/efficiency on HPC!
 
 ---
 
@@ -198,6 +187,8 @@ Check also integration with Git*, containers, and usability/efficiency on HPC!
 -> All scriberia illustrations: The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 
 [CSC High Throughput Computing](https://docs.csc.fi/computing/running/throughput/)
+
+[Long list of other general and specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
 
 Slides brought to you by [Cicero](https://cicero.xyz/)
 
