@@ -5,7 +5,7 @@
 
 # ~~Computing environment~~ Reproducibility 
 
-<img src="img/csc.png" style="height: 75px;"/> Samantha Wittke
+Samantha Wittke, CSC - IT Center for Science
 
 June 2023
 ]
