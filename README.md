@@ -7,3 +7,4 @@ Reproducibility talk (202306_reproducibility.md) served  via Cicero at: https://
 The presentations in this repository are licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
