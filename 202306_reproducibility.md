@@ -7,7 +7,9 @@
 
 <br>
 
-Samantha Wittke, CSC - IT center for Science
+<img src="img/csc.png" style="height: 75px;"/>
+
+Samantha Wittke
 
 June 2023
 ]
@@ -16,15 +18,17 @@ June 2023
 
 ## Terminology
 
-![](img/reproducible-definition-grid.svg)
+<img src="img/reproducible-definition-grid.svg" style="height: 600px;"/>
 
-The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+
+The Turing Way project illustration (also front page). Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 
 ---
 
 ## Steps towards reproducible research
 
-![](img/reproducible-research.jpg)
+<img src="img/reproducible-research.jpg" style="height: 500px;"/>
+
 
 ---
 
@@ -54,9 +58,12 @@ project_name/
 
 ### Tracking dependencies
 
-Avoiding "dependency hell" , i.e. different codes requiring differnt package versions, possibly incompatible.
+<img src="img/python_environment.png" style="height: 600px;"/>
+[https://xkcd.com/](https://xkcd.com/1987/)
 
-Available tools (e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) may help with:
+---
+## Tools
+(e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) may help with:
 
 * Defining a **specific set of dependencies**, possibly with well defined versions
 * Installing those dependencies mostly **automatically**
@@ -66,6 +73,7 @@ Available tools (e.g. Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ...) 
   * Isolate environments on computers with many users (and allow self-installations)
   * Using different Python/R versions per project
 * Provide tools and services to **share packages**
+
 
 If things go wrong, you can delete and re-create - much better use of time than debugging. 
 
@@ -77,7 +85,15 @@ If things go wrong, you can delete and re-create - much better use of time than 
 
 ### Recording environments
 
- > "It works on my machine" ¯\_(ツ)_/¯
+
+
+<br>
+
+.center[
+ "It works on my machine" ¯\_(ツ)_/¯
+ ]
+ 
+<br>
 
 ---
 
@@ -95,8 +111,9 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 ### Sharing code and data
 
-![](img/8-fair-principles.jpg)
-The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
+<img src="img/8-fair-principles.jpg" style="height: 600px;"/>
+
+
 
 * Findable - Will anyone else know that your data exists? -> get digital object identifier (DOI)
 * Accessible - Can anyone else get your data? -> use a repository
@@ -114,7 +131,7 @@ FAIR principles are usually discussed in the context of data, but they apply als
 
 ### Recording computational steps
 
-In general: scripted solutions are more reproducible than single runs, however depending on scripting skills you might run into limitations as soon as computational steps get more or more timeconsuming.
+In general: scripted solutions are more reproducible than separate runs, however depending on scripting skills you might run into limitations as soon as computational steps get more or more timeconsuming.
 
 Workflow tools to the rescue:
 
@@ -141,4 +158,5 @@ Check out also CSC guide on [High Throughput Computing](https://docs.csc.fi/comp
 [CodeRefinery reproducible research lesson](https://coderefinery.github.io/reproducible-research/)
 
 [The Turing way - Guide for reproducible research](https://coderefinery.github.io/reproducible-research/)
+-> All scriberia illustrations: The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 
