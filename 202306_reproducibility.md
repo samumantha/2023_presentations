@@ -63,15 +63,14 @@ project_name/
 
 Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ... may help with:
 
-* Defining a **specific set of dependencies**, possibly with well defined versions
-* Installing those dependencies mostly **automatically**
-* **Recording the versions** for all dependencies
+* **specific** set of dependencies
+* **automatic** installation
+* **Version record** for all dependencies
 * **Isolate environments** -> you know and can share your dependencies
-  * On your computer for projects so they can use different software
-  * Isolate environments on computers with many users (and allow self-installations)
-  * Using different Python/R versions per project
 * Provide tools and services to **share packages**
 
+<br>
+<br>
 
 If things go wrong, you can delete and re-create - much better use of time than debugging. 
 
@@ -119,7 +118,9 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 
 .left-column50[
+
 <img src="img/8-fair-principles.jpg" style="height: 250px;"/>
+
 ]
 
 .right-column50[
@@ -134,7 +135,7 @@ For container reproducibility: Use version tags when pulling images from reposit
     - Is there a license allowing others to re-use?
 ]
 
---- 
+---
 
 ## Data repositories
 
@@ -153,7 +154,6 @@ Even though FAIR data is often referred to as “open data”, it means consider
 FAIR principles also apply for research software!
 
 ---
-
 
 ## Recording computational steps
 
