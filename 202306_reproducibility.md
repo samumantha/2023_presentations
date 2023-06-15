@@ -1,4 +1,15 @@
+
+.center[
+
+
 # ~~Computing environment~~ Reproducibility 
+
+<br>
+
+Samantha Wittke, CSC - IT center for Science
+]
+---
+
 
 ## Terminology
 
@@ -6,9 +17,13 @@
 
 The Turing Way project illustration. Used under a CC-BY 4.0 licence. DOI: 10.5281/zenodo.3332807.
 
+---
+
 ## Steps towards reproducible research
 
 ![](img/reproducible-research.jpg)
+
+---
 
 ### It all starts with a good directory structure...
 
@@ -32,6 +47,8 @@ project_name/
 
 ... and version control, releases, tags ...
 
+---
+
 ### Tracking dependencies
 
 Avoiding "dependency hell" , i.e. different codes requiring differnt package versions, possibly incompatible.
@@ -51,9 +68,15 @@ If things go wrong, you can delete and re-create - much better use of time than 
 
 > The more often you re-create your environment, the more reproducible it is.
 
+
+---
+
+
 ### Recording environments
 
  > "It works on my machine" ¯\_(ツ)_/¯
+
+---
 
 #### Containers
 
@@ -64,6 +87,8 @@ A **container image** is like a piece of paper with all the operating system on 
 **Definition files** (e.g. Dockerfile or Singularity definition file) are text files that contain a series of instructions to build container images
 
 For container reproducibility: Use version tags when pulling images from repositories also in definition files.
+
+---
 
 ### Sharing code and data
 
@@ -81,6 +106,8 @@ Even though this is usually referred to as “open data”, it means considering
 
 FAIR principles are usually discussed in the context of data, but they apply also for research software.
 
+---
+
 
 ### Recording computational steps
 
@@ -92,6 +119,8 @@ Workflow tools to the rescue:
     * Record computational steps with additional arguments, requirements etc...
     * One step in the workflow changed? -> rerun only necessary steps
     
+---
+    
 Some workflow tools:
 
 * [Snakemake](https://snakemake.readthedocs.io/en/stable/)
@@ -102,6 +131,7 @@ Some workflow tools:
 Note also the tools integration with Github, containers, and usability/efficiency on HPC
 Check out also CSC guide on [High Throughput Computing](https://docs.csc.fi/computing/running/throughput/).
 
+---
 
 ### References and Resources
 
