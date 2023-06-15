@@ -114,7 +114,7 @@ For container reproducibility: Use version tags when pulling images from reposit
 
 
 .left-column50[
-<img src="img/8-fair-principles.jpg" style="height: 200px;"/>
+<img src="img/8-fair-principles.jpg" style="height: 250px;"/>
 ]
 
 .right-column50[
