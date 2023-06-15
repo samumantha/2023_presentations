@@ -149,7 +149,9 @@ Some general international repos:
 * [Figshare](https://figshare.com/) 
 * [EUDAT](https://eudat.eu/) 
 
-Even though FAIR data is often referred to as “open data”, it means considering and making good decisions, even if non-open.
+<br>
+
+FAIR data != “open data”; it means considering and making good decisions, even if non-open.
 
 FAIR principles also apply for research software!
 
@@ -158,11 +160,9 @@ FAIR principles also apply for research software!
 ## Recording computational steps
 
 <br>
-<br>
 
 > GUI < CLI runs < scripts < workflows ? 
 
-<br>
 <br>
 
 Workflow tools (e.g. [Snakemake](https://snakemake.readthedocs.io/en/stable/), [Make](https://www.gnu.org/software/make/), [Common Workflow Language](https://www.commonwl.org/)) :
