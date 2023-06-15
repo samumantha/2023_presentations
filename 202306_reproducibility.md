@@ -55,13 +55,13 @@ project_name/
 
 ---
 
-### Tracking dependencies
+## Tracking dependencies
 
 <img src="img/python_environment.png" style="height: 500px;"/>
 [https://xkcd.com/](https://xkcd.com/1987/)
 
 ---
-### Tools
+## Tools
 
 Conda, pip, virtualenv, Pipenv, pyenv, Poetry, renv, ... may help with:
 
@@ -83,7 +83,7 @@ If things go wrong, you can delete and re-create - much better use of time than 
 ---
 
 
-### Recording environments
+## Recording environments
 
 
 
