@@ -191,7 +191,7 @@ Workflow tools, e.g. [Snakemake](https://snakemake.readthedocs.io/en/stable/), [
 
 [CSC High Throughput Computing](https://docs.csc.fi/computing/running/throughput/)
 
-[Long list of other general and specialized tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
+[Long list of other general and specialized workflow tools](https://github.com/common-workflow-language/common-workflow-language/wiki/Existing-Workflow-systems)
 
 Slides brought to you by [Cicero](https://cicero.xyz/)
 
