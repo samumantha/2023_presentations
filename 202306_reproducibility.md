@@ -1,7 +1,7 @@
 
 .center[
 
-<img src="img/reproducibility" style="height: 300px;"/>
+<img src="img/reproducibility.jpg" style="height: 300px;"/>
 
 # ~~Computing environment~~ Reproducibility 
 
